@@ -1,76 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fun Shapes</title>
-    <style>
-        body {
-            display: flex;
-            min-height: 100vh;
-            justify-content: center;
-            align-items: center;
-            background: black;
-            margin: 0;
-        }
-
-        .container {
-            display: flex;
-            justify-content: space-evenly;
-            width: 100%;
-        }
-
-        .triangle {
-            background: dodgerblue;
-            width: 250px;
-            height: 200px;
-            clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-            cursor: pointer;
-        }
-
-        .triangle:hover {
-            animation: a1 2s forwards;
-        }
-
-        @keyframes a1 {
-            50% {
-                width: 450px;
-                height: 400px;
-                background: goldenrod;
-                transform: rotate(180deg) translateY(0);
-            }
-
-            100% {
-                transform: rotate(180deg) translateY(-100px);
-                background: none;
-            }
-        }
-
-        .circle {
-            background: orange;
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            transition: 1s;
-        }
-
-        .circle:hover {
-            border-radius: 0;
-            width: 300px;
-            height: 300px;
-            background: orangered;
-        }
-    </style>
+    <title>Document</title>
 </head>
-
 <body>
-    <div class="container">
-        <div class="triangle"></div>
-        <div class="circle"></div>
-    </div>
-
+    <h1>Hello there!</h1>
 </body>
-
 </html>

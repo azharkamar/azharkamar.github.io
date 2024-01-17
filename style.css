@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    padding: 0 !important;
+    margin: 20px 0 0;
+    height: 111.08px;
+}
+
+.logo {
+    width: 85px;
+    float: left;
+    margin-right: 25px;
+}
+
+.logo-text {
+    float: left;
+    line-height: 29px;
+    font-weight: 900;
+    font-size: 23px;
+    margin-top: 8px;
+}
+
+.logo-text span {
+    color: #fff;
+    background: #ccc;
+    font-size: 17px;
+    padding: 1px 7px;
+    font-weight: 600;
+    margin-left: 3px;
+    border-radius: 3px;
+}
+
+.logo-text span.code {
+    background: orange;
+}
+
+.icon-menu {
+    width: 45px;
+}
+
+.main-nav {
+    background: #eee;
+    font-weight: 200;
+}
+
+.bg-selected {
+    background: linear-gradient(40deg, rgba(255,0,0,1) 0%, rgba(255,117,0,1) 50%, rgba(247,255,0,1) 100%);
+}
+
+.col a {
+    text-decoration: none;
+}
+
+.discover {
+    color: #FF6600;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.page-title {
+    font-size: 44px;
+    font-weight: 900;
+}
+
+.body-text {
+    font-size: 21px;
+    line-height: 33px;
+}
+
+video {
+    background: #000;
+    border-radius: 8px;
+}
+
+.btn-cta {
+    font-weight: 700;
+    background: #FF6600;
+    border: none;
+}
+
+.btn-cta:hover, .btn-cta:active {
+    background: darkorange !important;
+}
+
+.footer {
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,117,0,1) 50%, rgba(247,255,0,1) 100%);
+    font-size: 14px;
+    letter-spacing: 0.3px;
+}
+
+.oc-menu {
+    background: linear-gradient(40deg, rgba(255,0,0,1) 0%, rgba(255,117,0,1) 50%, rgba(247,255,0,1) 100%);
+    border: none !important
+}
+
+.oc-link {
+    color: white;
+    font-size: 19px;
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+.oc-link:hover {
+    color: white;
+    margin-left: 5px;
+}
+
+.accordion-button:focus {
+    border-color: none;
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #fff;
+}
+
+.booths {
+    height: 200px;
+}
